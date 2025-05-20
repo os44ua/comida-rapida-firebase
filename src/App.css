@@ -1,0 +1,257 @@
+
+.app-container {
+  max-width: 1200px;
+  margin: 2rem auto;
+  padding: 1rem;
+  text-align: center;
+}
+
+.title {
+  font-size: 24px;
+  font-weight: bold;
+  color: #2c3e50;
+}
+
+.subTitle {
+  font-size: 18px;
+  margin-bottom: 0.3rem;
+}
+
+.subDesc {
+  font-size: 13px;
+  color: #666;
+  margin-bottom: 1rem;
+}
+
+.ulApp {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 1.5rem;
+  list-style: none;
+  padding: 0;
+}
+
+.menu-card {
+  width: 250px;
+  border-radius: 12px;
+  overflow: hidden;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  background: white;
+  text-align: center;
+  transition: transform 0.3s ease;
+}
+
+.menu-card:hover {
+  transform: scale(1.03);
+}
+
+.menu-image {
+  width: 100%;
+  height: 160px;
+  object-fit: cover;
+}
+
+.menu-name {
+  font-weight: bold;
+  font-size: 16px;
+  margin: 0.5rem 0 0;
+}
+
+.menu-desc {
+  font-size: 14px;
+  color: #444;
+  padding: 0 0.5rem;
+}
+
+.menu-price {
+  color: #27ae60;
+  font-weight: bold;
+  font-size: 16px;
+  margin-top: 0.5rem;
+}
+
+.foodImg {
+  width: 250px;
+  height: 180px;
+  object-fit: cover;
+  border-radius: 8px;
+}
+
+.ulFoods {
+  list-style: none;
+  padding: 0;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+}
+
+.liFoods {
+  background-color: #fff;
+  padding: 10px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.1);
+  max-width: 250px;
+  text-align: center;
+}
+.foodDesc {
+  font-size: 14px;
+  margin: 10px 0;
+}
+
+.foodPrice {
+  font-weight: bold;
+  color: green;
+  font-size: 16px;
+}
+
+
+
+.liApp {
+  background-color: #fff;
+  border: 1px solid #e0e0e0;
+  border-radius: 10px;
+  width: 230px;
+  padding: 10px;
+  box-shadow: 0 3px 6px rgba(0,0,0,0.05);
+  transition: transform 0.3s ease;
+}
+
+.liApp:hover {
+  transform: translateY(-3px);
+}
+
+.liApp p:first-child {
+  font-weight: bold;
+  color: #2f855a;
+  font-size: 15px;
+  margin-bottom: 4px;
+}
+
+.liApp p:last-child {
+  font-size: 14px;
+  color: #444;
+  margin: 0;
+}
+
+.header-buttons {
+  display: flex;
+  gap: 10px;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+
+/* estiloa para botonnes */
+
+.header-buttons {
+  display: flex;
+  gap: 10px;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+
+.toggleButton,
+.cartButton {
+  font-size: 16px;
+  padding: 10px 15px;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: all 0.3s;
+  min-width: 150px;
+  height: 40px;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  box-sizing: border-box;
+  border: none;
+}
+
+.toggleButton {
+  background-color: white;
+  color: #333;
+  border: 1px solid #888;
+}
+
+.toggleButton:hover {
+  background-color: #f5f5f5;
+}
+
+.cartButton {
+  background-color: #4CAF50;
+  color: white;
+  border: none;
+}
+
+.cartButton:hover {
+  background-color: #45a049;
+}
+
+
+
+
+.cart-container {
+  background-color: #f9f9f9;
+  border: 1px solid #ddd;
+  padding: 20px;
+  margin: 20px 0;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+.cart-container h3 {
+  color: #333;
+  margin-bottom: 15px;
+}
+
+.cart-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 0;
+  border-bottom: 1px solid #eee;
+}
+
+.cart-item:last-child {
+  border-bottom: none;
+}
+
+.cart-item button {
+  background-color: #ff4444;
+  color: white;
+  border: none;
+  padding: 5px 10px;
+  border-radius: 3px;
+  cursor: pointer;
+  font-size: 14px;
+}
+
+.cart-item button:hover {
+  background-color: #cc0000;
+}
+
+.total-price {
+  font-weight: bold;
+  font-size: 18px;
+  color: #333;
+  text-align: right;
+  margin-top: 15px;
+}
+
+
+/* para Order Manager */
+.ordersButton {
+  background-color: #28a745;
+  color: white;
+  border: none;
+  padding: 10px 15px;
+  border-radius: 4px;
+  cursor: pointer;
+  font-weight: 500;
+  margin-left: 10px;
+}
+
+.ordersButton:hover {
+  background-color: #218838;
+}
